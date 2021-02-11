@@ -1,0 +1,287 @@
+/* 基本CSS */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+/* ここまで */
+
+  .container {
+    width: 100%;
+    padding: 0 30px;
+    margin: 0 auto;
+  }
+  
+  .menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    line-height: 64px;
+    display: none;
+  }
+
+  .fa {
+    padding-right: 10px;
+  }
+
+  .btn:hover {
+    opacity: 0.9;
+  }
+
+  .btn {
+    border-radius: 8px;
+    color: white;
+    opacity: 0.8;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .btn-lock {
+    border-radius: 10px;
+    color: white;
+    opacity: 0.2;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .login {
+    padding: 14px 60px;
+    background-color:#1DAD22;
+  }
+
+  .link {
+    padding: 14px 30%;
+    background-color: darkgoldenrod;
+  }
+
+  .check {
+    color: rgb(255, 255, 255);
+    padding-left: 2px;
+    font-size: 16px;
+    padding-top: 10px;
+  }
+
+  .mon {
+    color: rgb(224, 64, 152);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 2px;
+  }
+  
+  .tue {
+    color: rgb(224, 69, 64);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 2px;
+  }
+
+  .wed {
+    color: turquoise;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 2px;
+  }
+
+  .thu {
+    color: rgb(176, 224, 64);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 2px;
+  }
+
+  .fri {
+    color: rgb(224, 181, 64);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 2px;
+  }
+
+  .sat {
+    color: rgb(110, 149, 255);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 2px;
+  }
+
+  header {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 64px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+  }
+
+  .header-left {
+    float: left;
+  }
+
+  .logo {
+    width: 260px;
+    margin-top: 12px;
+  }
+
+  .header-right {
+    float: right;
+    padding-right: 10px;
+  }
+
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: all 0.5s;
+  }
+
+  .header-right a {
+    font-size: 14px;
+    float: left;
+    width: 110px;
+    text-align: center;
+    line-height: 64px;
+    color: white;
+    display: block;
+  }
+  
+  .top-wrapper {
+    background-image: url(https://esports-world.jp/images/upload/2019/09/d69a04d1d2204076cd3b031d139b82e6.jpg);
+    background-size: cover;
+    padding: 140px 0 100px 0;
+    text-align: center;
+    position: relative;
+    height: 100%;
+  }
+
+  /* 背景を暗くする */
+  .top-wrapper::before {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: ' ';
+  }
+
+  .top-wrapper h1 {
+    font-size: 64px;
+    color: white;
+    opacity: 0.6;
+    margin-bottom: 20px;
+  }
+
+  .top-wrapper p {
+    color: white;
+    padding-bottom: 16px;
+    opacity:0.7;
+  }
+
+  .heading {
+    color: #5f5d60;
+  }
+
+  .delivery,.gamepad-alt {
+    color: rgb(209, 170, 69);
+  }
+  
+  .delivery {
+    display: block;
+    padding-bottom: 10px;
+    margin: 0 100px;
+  }
+
+  .profile-wrapper {
+    text-align: center;
+    background-color: #eee;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+
+  .gamelist-wrapper {
+    background-color: rgb(36, 36, 36);
+    color:white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .game-list {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap; 
+    padding-top: 20px;
+  }
+
+  .game {
+    width: 25%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+  .game-thumb img {
+    width: 80%;
+    box-shadow: 4px 6px 8px #00000083;
+  }
+
+  .lock {
+    opacity: 0.2;
+  }
+
+  .game-thumb p {
+    margin-top: 10px;
+    margin-bottom: 2px;
+    font-weight: bold;
+  }
+
+  .text-contents {
+    width: 80%;
+    font-size: 12px;
+    display: inline-block;
+  }
+
+  .follow-wrapper {
+    text-align: center;
+    background-color: #eee;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .follow {
+    padding: 24px 180px;
+    margin-bottom: 40px;
+    background-color:#e00d0d;
+    font-size: 30px;
+    box-shadow: 0px 4px #6e0707;
+  }
+
+  .follow:active {
+    box-shadow: none;
+    position: relative;
+    top: 3px;
+  }
+
+  footer {
+    width: 100%;
+    background-color: rgb(105, 105, 105);
+    color: white;
+    font-size: small;
+    float: left;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  footer img {
+    width: 200px;
+  }
