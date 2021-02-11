@@ -1,0 +1,44 @@
+@media (max-width: 1000px) {
+    .game {
+      width: 50%;
+    }
+}
+  
+@media (max-width: 670px) {
+
+    .btn {
+        width:80%;
+    }
+
+    .game {
+      width: 95%;
+      margin: 0 auto;
+    }
+    
+    footer {
+        text-align: center;
+    }
+
+    .login, .link {
+        width: 80%;
+    }
+
+    .heading {
+        text-align: left;
+    }
+
+    .follow {
+        font-size: 25px;
+        padding: 10px 0;
+    }
+
+    .header-right {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+}
+  
